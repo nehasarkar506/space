@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="space.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300&family=Lora&family=M+PLUS+Rounded+1c:wght@100&family=Tajawal:wght@200&family=Tenor+Sans&family=Ysabeau:wght@1;400;800;1000&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=DM+Serif+Display&family=Dongle:wght@300&family=Lora:wght@400;700&family=M+PLUS+Rounded+1c:wght@100&family=Tajawal:wght@200&family=Tenor+Sans&family=Ysabeau+SC:wght@100&family=Ysabeau:wght@1;400;800;1000&display=swap" rel="stylesheet">
+
+
+
+<style>
+    .Descovries
+  {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.816),rgba(0, 0, 0, 0.806)),url('./image/black-hole-gif-7.gif');
+    background-size:110%;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+
+ 
+ 
+  .Descovries img{
+    width:18.2rem;
+    height:22rem;
+   object-fit: cover;
+   position: absolute;
+   
+  }
+  
+  .Descovries img:hover{
+    visibility: visible;
+    cursor: pointer;
+     box-shadow:  rgba(106, 106, 107, 0.3) 0px 1px 2px 0px, rgba(117, 118, 118, 0.15) 0px 2px 6px 2px;
+
+  }
+  .Descovries p{
+    color: azure;
+   
+    font-family: 'Tajawal', sans-serif;  
+    margin-top: 30%;
+    font-size: 1.22rem;
+
+  }
+
+ .Descovries a{
+    color:white;   
+    font-family: 'Tajawal', sans-serif;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+.Descovries a:hover{
+  color:rgb(255, 255, 255);   
+  font-family: 'Tajawal', sans-serif;
+  border-bottom: 1px solid rgb(166, 0, 0);
+  text-decoration: none;
+  font-size: 1.12rem;
+}
+
+.container
+{
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:18.2rem;
+    height:22rem;
+    background: #262626;
+    
+    overflow: hidden;
+}
+.card .imgBx,
+.card .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card .imgBx {
+    top: 0;
+    left: 0;
+}
+.card:hover .imgBx {
+    top:-100%;
+    left: 0;
+}
+.card .imgBx img {
+    width: 100%;
+}
+.card .details {
+    background: #262626;
+    top: 100%;
+    left: 0;
+    padding: 40px 30px;
+}
+.card:hover .details {
+    top: 0;
+    left: 0%;
+}
+
+.card .details h6 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+    font-size: x-large;
+
+}
+
+.card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+    font-size:medium;
+}
+
+/*==========================================*/
+.four
+{
+  width: 100%;
+  height: 100vh;
+  
+}
+.four h1
+{
+  color: #fff;
+  text-align: center;
+  font-family: 'Tenor Sans', sans-serif; 
+   margin-top: 10%;
+  
+}
+
+.four .card{
+position: absolute;
+  width: 48rem;
+  border:none;
+  height: 30rem;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #000000; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.772),rgba(0, 0, 0, 0.573)),url(./image/yUHNc77.jpg);
+  background-size: cover;
+  background-position: left;
+  border: 1px solid white;
+ 
+}
+.four .card1{
+
+  width: 300px;
+  border:none;
+  height: 30rem;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #000000; 
+  border: 1px solid white;
+  overflow: auto;
+}
+
+
+.four .card2{
+position: absolute;
+left: 85%;
+top: 30%;
+width: 310px;
+  border:none;
+  height: 30rem;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #000000; 
+  border: 1px solid white;
+  overflow: auto;
+
+
+}
+
+.four .card2 img{
+  width: 15rem;
+  height: 8rem;
+  margin-left: 6%;
+  object-fit: cover;
+}
+
+ .box
+{
+position: relative;
+ 
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #450000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff; 
+ 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+  
+}
+
+
+
+
+
+
+.four a{
+  color:white;   
+  font-family: 'Tajawal', sans-serif;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+.four a:hover{
+  color:rgb(255, 255, 255);   
+  font-family: 'Tajawal', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+  border-bottom: 1px solid rgb(166, 0, 0);
+  text-decoration: none;
+  font-size: 1.12rem;
+  text-decoration: none;
+}
+
+
+.four .card1 img{
+  width: 15rem;
+  height: 8rem;
+  margin-left: 6%;
+  object-fit: cover;
+}
+
+
+
+.line{
+
+  color: #fff;
+  border: 1px solid white;
+}
+
+
+
+.form-check-input:checked {
+  background-color: #F44336;
+  border-color: #F44336;
+}
+
+
+.form-check-input:focus {
+  border-color: #d50000;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.75em;
+  margin-bottom: -5px;
+}
+
+.card3
+{
+    position: absolute;
+    left: 85%;
+top: 50%;
+width: 350px;
+border:none;
+height: 15rem;
+border-radius: 2px;
+object-fit: cover;
+
+
+}
+
+.card3 img{
+    width: 350px;
+    height: 15rem;
+
+}
+
+
+.video-container1 {
+  width: 30%;
+  padding: 10px;
+ 
+  display: inline-block;
+}
+
+
+.video-container {
+  width: 30%;
+  padding: 10px;
+ 
+  display: inline-block;
+}
+
+.responsive-video {  
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.responsive-video iframe, .responsive-video video {
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+}
+
+/*===============================================*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+ 
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+  
+ 
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+</style>
+</head>
+<body>
+    <section class="Descovries">
+        
+        <h1 style="color:white;text-align: center; font-size: 3.2rem; 
+        font-family: 'Tenor Sans', sans-serif; padding-top: 2%;">Discoveries</h1>
+            <div class="container">
+               
+                <div class="row">
+                    
+                    <div class="col-16 col-sm-12 col-md-6 col-lg-6 mt-4">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-6 " style="margin-top: 50%; ">
+                                <div class="card">
+                                    <div class="imgBx">
+                                <img src="./image/The_joint_ESA_NASA_Hubble_Space_Telescope.jpg" style="height: 22rem; width:18.2rem;">
+                                </div>
+                                <div class="details">
+                                        <h6>Space Telescope</h6>
+                                        <p>
+                                            Hubble was designed as a general purpose observatory, meant to explore the universe in visible, ultraviolet and infrared wavelengths. 
+                                            To date, the telescope has studied more than 40,000 cosmic objects, providing views astronomers were unable to capture from the ground.
+                                        </p>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-5 ">
+                              <div class="row">
+                                <div class="col-12">
+                                    <div class="card " style="margin-top: 75%; margin-left: 15%; ">
+                                        <div class="imgBx" >
+                                    <img src="./image/hubble-orion-nebula-mosaic-image.jpg" >
+                                    </div>
+                                    <div class="details">
+                                        <h6>Hubble’s Nebulae</h6>
+                                        <p>
+                                            The space between stars is dotted with twisting towers studded with stars, unblinking eyes, ethereal ribbons, and floating bubbles. 
+                                            These fantastical shapes, some of the universe’s most visually stunning constructions, are nebulae, clouds of gas and dust that 
+                                            can be the birthplace of stars.
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-1">
+                                    <div class="card " style="margin-top:33.3rem; margin-left: 15%; ; ">
+                                        <div class="imgBx" >
+                                    <img src="./image/3Ux01N.jpg" >
+                                    </div>
+                                    <div class="details">
+                                        <h6>Hubble's Galaxies</h6>
+                                        <p>
+                                            Our Sun is just one of a vast number of stars within a galaxy called the Milky Way, which in turn is only one of the billions of 
+                                            galaxies in our universe.Astronomers generally classify galaxies into three major categories: spiral – like our Milky Way – elliptical, and irregular.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 pl-5 mt-5">
+                                <p>Hubble has transformed our understanding of the universe, its view from orbit unleashing a flood 
+                                    of cosmic discoveries that have changed astronomy forever. From its explorations of dark matter 
+                                    to its quest to determine the age of the universe, Hubble has helped answer some of the most compelling
+                                     astronomical questions of our time, and revealed enigmas that we never knew existed. Throughout history,
+                                      humanity’s eyes on the universe have never seen with more
+                                     clarity or focus; find out how Hubble has opened the window to the grandeur and mystery of space.</p>
+                      
+                                     <a href="#">Explore More</a><hr>
+                                    </div>
+                </div>
+            </div>
+    
+    </section>
+
+
+    <section class="four mt-5">
+        <div class="container mt-5">
+            <h1 style="font-size: 3.3rem;">News</h1>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-12 col-md-4 col-xl-4">
+                    <div class="card1">
+
+
+                        <div class="text-center">
+            
+                            <div class="d-flex flex-row text-center">
+            
+                            
+                            <div class="d-flex flex-column ml-1">
+            
+                                <h4 class="text-white">Latest Hubble News</h4>
+                                                    
+                            </div>
+                        </div>
+                            
+                        </div>
+            
+                        <hr class="line">
+                        <div class="  d-block justify-content-between align-items-center mt-4 ">
+                            <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                Hubble Checks in on a <br>Galactic Neighbor
+                            </p>
+                            <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">Jun 30, 2023 - The highly irregular galaxy ESO 174-1, which resembles a lonely, hazy cloud against a backdrop of bright stars, dominates this image from the NASA/ESA Hubble Space Telescope.</p>
+
+                                <img src="./image/1140x641.jpg" class="mb-2">
+                       
+                                <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                    Hubble Glimpses a Glistening Cluster
+                                </p>
+                                <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                    Jun 23, 2023 - The teeming stars of the globular cluster NGC 6544 glisten in this image from the NASA/ESA Hubble Space Telescope.
+                                </p>
+
+                                    <img src="./image/hubble-spies-emission.jpg" class="mb-2">
+
+                                    <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                        Hubble Captures a Billowing Irregular Galaxy
+                                    </p>
+                                    <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                        Jun 16, 2023 - The galaxy NGC 7292 billows across this image from the NASA/ESA Hubble Space Telescope.
+                                        </p>
+    
+                                        <img src="./image/Irregular_galaxy_NGC_1427A_(captured_by_the_Hubble_Space_Telescope).jpg" class="mb-2">
+                                        
+                                        <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                            Hubble’s Inside The Image: Eta Carinae
+                                        </p>
+                                        <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                            Jun 9, 2023 - Hubble’s Inside The Image: Eta Carinae. This video explains the science behind the iconic Hubble image.
+                                            </p>
+        
+                                            <img src="./image/Eta_Carinae_1.jpg" class="mb-2">
+                                                
+                                            <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                                Hubble Observes a Cosmic Sea Creature
+                                            </p>
+                                            <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                                Jun 9, 2023 - The jellyfish galaxy JO206 trails across this image from the NASA/ESA Hubble Space Telescope.
+                                                </p>
+            
+                                                <img src="./image/04-space-horsehead-nebula.jpg" class="mb-2">
+
+                                          
+                                          <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                            Hubble Gazes at a Hazy Galaxy
+                                                </p>
+                                          <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                            Jun 2, 2023 - This moody image shows a galaxy named Messier 85, captured in all its delicate, hazy glory by the NASA/ESA Hubble Space Telescope. 
+                                                </p>
+                
+                                                <img src="./image/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg" class="mb-2">
+                                      
+                                                <a href="#" class=" mb-5">See More </a>
+                                            </div>
+                         
+            
+                     </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-7 col-xl-7 box">
+                    <div class="card">
+                                <div class="d-flex justify-content-between align-items-center  mt-0" >
+                                    <h1 class="mt-5 display-2" style="font-family: 'Teko', sans-serif; letter-spacing: 3px; text-align: left;
+                                    ">Hubble's <br> 
+                                    <span style="text-align: center;">30th</span>
+                                     <br> Anniversary</h1>
+                             
+                        </div>
+                         
+                        <div class="col">
+                           
+                        </div>
+                             
+                
+                         </div>
+                         
+                     </div>
+                   <div class="card2">
+                    <div class="text-center">
+            
+                        <div class="d-flex flex-row text-center">
+        
+                        
+                        <div class="d-flex flex-column ml-1">
+        
+                            <h4 class="text-white">Archived News</h4>
+                                                
+                        </div>
+                    </div>
+                        
+                    </div>
+        
+                    <hr class="line">
+                    <div class="  d-block justify-content-between align-items-center mt-4 ">
+                        <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                            Hubble Finds Dead Stars 'Polluted with Planet Debris
+                        </p>
+                        <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                            05.09.13 - Hubble found the building blocks for Earth-sized planets in an unlikely place – the atmospheres of a pair of burned-out stars called white dwarfs.
+
+
+                        </p>
+
+                            <img src="./image/1140x641.jpg" class="mb-2">
+                   
+                            <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                Hubble Sees the Remains of a Star Gone Supernova
+                            </p>
+                            <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                05.03.13 - These thin, blood-red shells of gas are remnants from when an unstable progenitor star exploded violently as a supernova around 600 years ago.                            </p>
+
+                                <img src="./image/hubble-spies-emission.jpg" class="mb-2">
+
+                                <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                    Hubble’s View of a Changing Fan
+                                                                </p>
+                                <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                    04.26.13 - PV Cep is a favorite target for amateur astronomers because the fan-shaped nebulosity, known as GM 1-29 or Gyulbudaghian’s Nebula, changes over a timescale of months.
+
+                                </p>
+
+                                    <img src="./image/Irregular_galaxy_NGC_1427A_(captured_by_the_Hubble_Space_Telescope).jpg" class="mb-2">
+                                    
+                                    <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                        Jennifer Wiseman Discusses Hubble Telescope
+                                    </p>
+                                    <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                        04.25.13 - Jennifer Wiseman, senior project scientist for Hubble, discusses the history and the status of the pioneering space telescope.                                        </p>
+    
+                                        <img src="./image/Eta_Carinae_1.jpg" class="mb-2">
+                                            
+                                        <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                            Horsehead of a Different Color                          
+                                        </p>
+                                        <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                                
+                                            04.19.13 - The iconic Horsehead Nebula seen in a new, infrared light marks the 23rd anniversary of the famous observatory's launch aboard the space shuttle Discovery on April 24, 1990.
+                                        </p>
+        
+                                            <img src="./image/04-space-horsehead-nebula.jpg" class="mb-2">
+
+                                      
+                                      <p style="color: rgb(93, 201, 251);font-size: 1.2rem;font-variant: small-caps;font-family: 'Agdasima', sans-serif">
+                                        Hubble Captures Comet ISON   
+                                            </p>
+                                      <p class="text-white" style=" font-family: 'Ysabeau SC', sans-serif;">
+                                        04.23.13 - This image of Comet ISON was captured April 10, when the comet was slightly closer to the Sun than Jupiter, 386 million miles, or 394 million miles from Earth.                                                                             </p>
+            
+                                            <img src="./image/220712092620-04-james-webb-telescope-first-images-0712-carina-nebula.jpg" class="mb-2">
+                                  
+                                            <a href="#" class=" mb-5">See More </a>
+                                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+</body>
+</html>

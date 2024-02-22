@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Akatab&family=Allerta+Stencil&family=Anton&family=Assistant:wght@300&family=Bebas+Neue&family=Cinzel:wght@900&family=Cormorant:wght@700&family=DM+Serif+Display&family=Didact+Gothic&family=Dongle:wght@300&family=El+Messiri:wght@700&family=IBM+Plex+Sans+Arabic:wght@300&family=Lora:wght@400;700&family=M+PLUS+Rounded+1c:wght@100&family=Michroma&family=Moirai+One&family=Monoton&family=Narnoor&family=Open+Sans&family=PT+Serif&family=Playfair+Display&family=Quicksand:wght@300&family=Raleway:wght@200&family=Roboto&family=Rubik+Mono+One&family=Tajawal:wght@200&family=Teko:wght@700&family=Tenor+Sans&family=Ysabeau+Infant:wght@100&family=Ysabeau+SC:wght@100;200&family=Ysabeau:wght@1;400;800;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Adamina&family=Akatab&family=Allerta+Stencil&family=Anton&family=Assistant:wght@300&family=Bebas+Neue&family=Cinzel:wght@900&family=Cormorant:wght@700&family=DM+Serif+Display&family=Didact+Gothic&family=Dongle:wght@300&family=El+Messiri:wght@700&family=Gloock&family=IBM+Plex+Sans+Arabic:wght@300&family=Kanit:wght@200&family=Lexend+Peta:wght@200&family=Lora:wght@400;700&family=M+PLUS+1p:wght@100&family=M+PLUS+Rounded+1c:wght@100&family=Merriweather+Sans:wght@300&family=Merriweather:wght@300&family=Michroma&family=Moirai+One&family=Monoton&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Narnoor&family=Noto+Serif+Makasar&family=Open+Sans:wght@300;400&family=PT+Serif&family=Playfair+Display&family=Quicksand:wght@300&family=Rajdhani:wght@300&family=Raleway:wght@200&family=Roboto&family=Rubik+Dirt&family=Rubik+Mono+One&family=Tajawal:wght@200&family=Teko:wght@700&family=Tenor+Sans&family=Ysabeau+Infant:wght@100&family=Ysabeau+SC:wght@100;200&family=Ysabeau:wght@1;400;800;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Didact+Gothic&family=Dongle:wght@300&family=El+Messiri:wght@700&family=Gloock&family=IBM+Plex+Sans+Arabic:wght@300&family=Inter&family=Kanit:wght@200&family=Lexend+Peta:wght@200&family=Lora:wght@400;700&family=M+PLUS+1p:wght@100&family=Moirai+One&family=Tajawal&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='3000' preserveAspectRatio='none' viewBox='0 0 1440 3000'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1079%26quot%3b)' fill='none'%3e%3crect width='1440' height='3000' x='0' y='0' fill='rgba(28%2c 30%2c 31%2c 1)'%3e%3c/rect%3e%3ccircle r='240' cx='19.43' cy='82.62' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='240' cx='1120.61' cy='1054.3' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='240' cx='1909.08' cy='1685.32' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='290.735' cx='837.73' cy='1606.02' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='472.33' cx='92.05' cy='2417.98' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='133.15' cx='214.34' cy='1472.37' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='184.505' cx='1301.15' cy='2703.85' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='384.78' cx='511.27' cy='2830.4' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='299.875' cx='1425.12' cy='998.66' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='370.345' cx='568.56' cy='1051.59' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='344.9' cx='262.21' cy='1410.9' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='354.59' cx='630.5' cy='1720.68' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='212.69' cx='8.12' cy='2140.21' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1079'%3e%3crect width='1440' height='3000' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e") !important; 
+    background-repeat: no-repeat;
+   background-size: cover;
+
+ }
+
+ header
+ {
+  width: 100%;
+  height: 95vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.251),rgba(0, 0, 0, 0.856)),url(./image/wormhole-astronaut-2560x1440-9640.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul li a{
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Tajawal', sans-serif;
+        font-size: 20px;
+}
+
+header  ul li a:hover{
+                color:#747474!important;
+                border-bottom:1px solid #c0c0c0;
+                         
+}
+
+
+
+.main{
+  width: 100%;
+  height: 100vh;
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.08),rgba(0, 0, 0, 0.621)),url(./image/MercuryGlobeMESSENGER.gif);
+background-repeat: no-repeat;
+background-size: cover;
+
+  }
+
+
+  .text
+  {
+
+      display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+   width: auto;
+     padding: 20px;
+     
+    }
+
+    .text h1{
+     color: white;
+     font-size:700%;
+     letter-spacing: 1px;
+
+     font-family: 'Gloock', serif;
+     
+     text-align: center;
+        }
+
+        .text  p{
+
+         text-align: center !important;
+           color: white;
+           text-align: left;
+           font-family: 'Kanit', sans-serif;     
+           font-family: 'Rajdhani', sans-serif;   
+           font-family: 'ABeeZee', sans-serif;
+           font-family: 'Quicksand', sans-serif;
+           /* letter-spacing: 2px; */
+           word-spacing: 2px;
+            font-size: 110%;
+         
+        }
+
+        .text a{
+         color:white;   
+         font-family: 'Tajawal', sans-serif;
+         border-bottom: 1px solid white;
+         text-decoration: none;
+         text-align: center;
+         margin-left: 32.4rem;
+        
+  }
+
+  .text a:hover{
+   text-decoration: none;
+   color:white;   
+         font-family: 'Tajawal', sans-serif;
+         border-bottom: 1px solid white;
+        
+  }
+
+  .container1 {
+   position: relative;
+   width: 100px;
+   height: 30px;
+ }
+
+
+ .chevron {
+   position: absolute;
+   width: 30px;
+   height: 10px;
+   opacity: 0;
+   transform: scale3d(0.5, 0.5, 0.5);
+   animation: move 3s ease-out infinite;
+   margin-top: 3rem;
+   margin-left: 1.5rem;
+ }
+ 
+ .chevron:first-child {
+   animation: move 3s ease-out 1s infinite;
+ }
+ 
+ .chevron:nth-child(2) {
+   animation: move 3s ease-out 2s infinite;
+ }
+ 
+ .chevron:before,
+ .chevron:after {
+   content: ' ';
+   position: absolute;
+   top: 0;
+   height: 100%;
+   width: 51%;
+   background: #fff;
+ }
+ 
+ .chevron:before {
+   left: 0;
+   transform: skew(0deg, 30deg);
+ }
+ 
+ .chevron:after {
+   right: 0;
+   width: 50%;
+   transform: skew(0deg, -30deg);
+ }
+ 
+ @keyframes move {
+   25% {
+     opacity: 1;
+ 
+   }
+   33% {
+     opacity: 1;
+     transform: translateY(30px);
+   }
+   67% {
+     opacity: 1;
+     transform: translateY(40px);
+   }
+   100% {
+     opacity: 0;
+     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+   }
+ }
+ 
+  @keyframes pulse {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .text h1{
+       font-size:500%;
+              }
+  }
+
+  @media only screen and (max-width: 465px) {
+    .text h1{
+       font-size:300%;
+              }
+  }
+
+
+  /*======================================*/
+
+  .head
+  {
+    width: 100%;
+    height:auto;
+    background-color: #2f2f2f;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='3000' preserveAspectRatio='none' viewBox='0 0 1440 3000'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1079%26quot%3b)' fill='none'%3e%3crect width='1440' height='3000' x='0' y='0' fill='rgba(28%2c 30%2c 31%2c 1)'%3e%3c/rect%3e%3ccircle r='240' cx='19.43' cy='82.62' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='240' cx='1120.61' cy='1054.3' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='240' cx='1909.08' cy='1685.32' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='290.735' cx='837.73' cy='1606.02' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='472.33' cx='92.05' cy='2417.98' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='133.15' cx='214.34' cy='1472.37' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='184.505' cx='1301.15' cy='2703.85' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='384.78' cx='511.27' cy='2830.4' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='299.875' cx='1425.12' cy='998.66' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='370.345' cx='568.56' cy='1051.59' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='344.9' cx='262.21' cy='1410.9' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='354.59' cx='630.5' cy='1720.68' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='212.69' cx='8.12' cy='2140.21' stroke='%23313741' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1079'%3e%3crect width='1440' height='3000' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e") !important; 
+    background-repeat: no-repeat;
+   background-size: cover;
+
+  }
+/*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+    text-align: center;
+ 
+  }
+
+  #cards_landscape_wrap-2 .container{
+    padding-top: 40px; 
+    padding-bottom: 100px;
+  }
+
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+    height:28rem;
+    width:21rem;
+    
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height:16rem;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+  }
+
+  h6{
+    color: black !important;
+  }
+
+  /*=======================================*/
+
+  .footer
+  {
+    width: 100%;
+    height: auto;
+    background-color: #212121;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='528' preserveAspectRatio='none' viewBox='0 0 1440 528'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1098%26quot%3b)' fill='none'%3e%3crect width='1440' height='528' x='0' y='0' fill='rgba(32%2c 33%2c 33%2c 1)'%3e%3c/rect%3e%3cpath d='M813.46 601.73C914.33 580.98 886.92 320.54 1114.26 320.32 1341.61 320.1 1559.66 487.69 1715.87 489.28' stroke='rgba(64%2c 67%2c 69%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M468.97 622.3C639.36 602.85 745.77 225.97 1028.58 225.53 1311.39 225.09 1436.78 453.3 1588.19 457.85' stroke='rgba(64%2c 67%2c 69%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M820.42 557.19C958.66 536.68 1004.69 226.82 1257.22 208.37 1509.76 189.92 1577.44 47.35 1694.03 44.69' stroke='rgba(64%2c 67%2c 69%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M467.91 550.85C637.14 546.12 761.54 304.3 1095.76 297.15 1429.98 290 1558.44 93.84 1723.61 91.23' stroke='rgba(64%2c 67%2c 69%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M324.23 631.76C436.79 626.52 523.92 433.87 728.97 433.43 934.03 432.99 931.34 499.43 1133.72 499.43 1336.09 499.43 1435.94 433.65 1538.46 433.43' stroke='rgba(64%2c 67%2c 69%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1098'%3e%3crect width='1440' height='528' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  }
+  
+  .buttons a
+  {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+  }
+  .buttons a:hover
+  {
+    color: #a4a4a4;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.556), 0 6px 6px rgba(0, 0, 0, 0.419);
+    border: 1px dashed #a4a4a4;
+  }
+  
+  .footer ul li a:hover{
+     color:#a4a4a4 !important;
+  }
+  
